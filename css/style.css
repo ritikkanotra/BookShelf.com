@@ -1,0 +1,21 @@
+.banner img {
+  max-width: 100%;
+  padding: 0px 30px;
+}
+
+body h1 {
+  color: rgb(0, 83, 13);
+  border: solid rgb(42, 106, 10);
+  border-width: 2px 4px;
+  background: rgba(47, 158, 20, 0.15);
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  padding: 6px;
+  border-radius: 10px;
+  font-family: Andika;
+}
+
+.books {
+  padding: 30px 7%;
+}

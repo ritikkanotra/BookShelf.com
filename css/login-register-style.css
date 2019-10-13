@@ -1,0 +1,126 @@
+body {
+  margin: 5px;
+  align-content: center;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(../res/aa_1.jpg);
+  background-size: cover;
+  font-family: cursive;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+/* ----- Box Design Part ----- */
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  width 500px;
+  height 150px;
+  padding: 30px 70px;
+  background: rgba(0, 0, 0, .7);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .13);
+  border-radius: 35px;
+}
+
+/* ----- logon sign heading -----*/
+.box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-family: serif;
+}
+
+/*  ------ Input Box part ------
+        login/signup both pages input box design here
+        .inputBox
+        .inputBox -> input
+        .inputBox -> label
+*/
+.box .inputBox {
+  position: relative;
+}
+
+/* ----- Input Box Part / Highlight design of
+        E-mail/password/name/password related part portion */
+.box .inputBox input {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+/* ------transition up down label portion------  */
+.box .inputBox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.box .inputBox input:focus~label,
+.box .inputBox input:valid~label {
+  top: -18px;
+  left: 0;
+  color: #03a9f4;
+  font-size: 12px;
+}
+
+/*  sign up text block  */
+.box .inputBox text {
+  width: 5px;
+  top: 0;
+  bottom: 10px;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  font-size: 14px;
+  color: aliceblue;
+}
+
+/*  -----sign up block-----    */
+.box .inputBox a {
+  width: 100%;
+  bottom: 10px;
+  margin-bottom: 20px;
+  padding: 10px 5px;
+  font-size: 14px;
+  color: darkorange;
+}
+
+/*     -----Check here for signin button-----    */
+.box .inputBox signin {
+  margin-top: 10px;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*   -----Check here for Signup Button----     */
+.box .inputBox signup {
+  margin-top: 10px;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

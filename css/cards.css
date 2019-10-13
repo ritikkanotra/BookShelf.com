@@ -1,0 +1,38 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 200px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  background: rgba(255, 230, 0, 0.27);
+  border-radius: 15px;
+  border: solid black;
+  border-width: 1px;
+}
+
+.card:hover {nav
+  padding: 0px 90px;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container .card img {
+  height: 200px;
+  width: 100px;
+}
+
+tr {
+  padding: 30px;
+}
+
+.container {
+  overflow-x: auto;
+}
+
+.card-container {
+  display: grid;
+  padding: 2rem 8rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
